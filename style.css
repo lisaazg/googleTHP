@@ -1,4 +1,4 @@
-body {
+ody {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -29,6 +29,8 @@ ul {
   padding: 6px 10px;
   border-radius: 3px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-around;
 }
 
 .nav-links {
@@ -59,6 +61,8 @@ li.nav-links a:hover {
   clear: both;
   padding-top: 112px;
   padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .form {
@@ -87,7 +91,8 @@ footer  {
   bottom: 0;
   padding-bottom: 0;
   width: 100%;
-  
+  display: flex;
+  justify-content: center;
 }
 
 footer ul li {
@@ -109,10 +114,7 @@ footer ul a:hover {
 .footer-top {
   float: center;
 }
-
-
 @media screen and (max-width: 400px) {
- 
  li.nav-links a {
     display: none;
   }
@@ -132,6 +134,7 @@ footer ul a:hover {
   
  footer {
    bottom: 0;
+   justify-content: space-between;
  }
   
  footer ul {
@@ -141,15 +144,17 @@ footer ul a:hover {
  }
   
  .footer-top {
-   text-align: center;
+   text-align: justify;
    margin: auto; 
    padding-top: 10px;
+   justify-content: center;
     
  }
   
  .footer-down {
    float: none;
-   text-align: center;
+   text-align: justify;
+   justify-content: center;
    
  }
 }
@@ -175,7 +180,6 @@ footer ul a:hover {
  }
   
  footer {
-  justify-content: center;
    position:absolute;
    bottom:0;
    width:100%;
@@ -205,3 +209,4 @@ footer ul a:hover {
    
  }
 }
+
